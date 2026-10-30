@@ -24,3 +24,6 @@
 
 # Sandbox
 /data/system_ce/[0-9]*/sandbox/vault(/.*)?  u:object_r:ax_sandbox_vault_file:s0
+
+# Boot animation hints
+/metadata/bootanim(/.*)?                u:object_r:bootanim_metadata_file:s0
