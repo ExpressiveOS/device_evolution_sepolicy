@@ -7,3 +7,6 @@ type pocket_judge_sysfs, fs_type, sysfs_type;
 
 # Sandbox
 type ax_sandbox_vault_file, file_type, data_file_type, core_data_file_type;
+
+# Boot animation hints
+type bootanim_metadata_file, file_type;
