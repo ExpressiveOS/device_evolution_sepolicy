@@ -3,4 +3,6 @@ user=_app isPrivApp=true seinfo=mediashell domain=mediashell_app name=com.google
 user=_app isPrivApp=true seinfo=mediashell domain=mediashell_app name=com.google.android.apps.mediashell:* type=privapp_data_file levelFrom=all
 
 # Updater
+user=_app isPrivApp=true seinfo=platform name=org.expressiveos.updater domain=updater_app type=app_data_file levelFrom=user
+# The package name through 1.2. Kept so a build that still ships it stays in its domain.
 user=_app isPrivApp=true seinfo=platform name=org.evolution.updater domain=updater_app type=app_data_file levelFrom=user
