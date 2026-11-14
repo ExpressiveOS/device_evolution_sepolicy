@@ -1,6 +1,3 @@
-# NFC
-system_public_prop(vendor_persist_nfc_prop)
-
 # USB
 system_vendor_config_prop(usb_uvc_config_prop)
 
