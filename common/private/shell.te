@@ -1,4 +1,5 @@
 get_prop(shell, custom_version_prop)
+get_prop(shell, eos_system_prop)
 
 # Bootanim
 allow shell bootanim_data_file:dir create_dir_perms;

@@ -13,3 +13,6 @@ system_internal_prop(pif_prop)
 
 # Recovery update
 system_internal_prop(recovery_update_prop)
+
+# ExpressiveOS launcher mode property
+system_internal_prop(eos_system_prop)
