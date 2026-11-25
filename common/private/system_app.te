@@ -20,6 +20,7 @@ get_prop(system_app, qemu_hw_prop)
 
 # Allow Columbus to set ApSensor property
 allow system_app system_prop:property_service set;
+set_prop(system_app, eos_system_prop)
 
 # Bootanim
 allow system_app bootanim_data_file:dir create_dir_perms;
